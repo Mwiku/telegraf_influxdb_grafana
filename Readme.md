@@ -20,10 +20,18 @@ The setup comprises of two main files:
 
 
 ## Getting started
-Clone the Git Repository in your prefered directory
+Clone the Git Repository to your prefered directory
+`git clone https://github.com/Mwiku/telegraf_influxdb_grafana.git`
 
 Cd into the cloned directory then run 
-docker-compose up to start the stack 
+`docker-compose up` to start the stack
 
-Grafan can be accesed on port 
-https; 192.168.10.105:3030 on 
+
+When you are running the stack for the first it might take some time to download the docker images depending on your network speed.
+
+Once everything is up and running go the url http://localhost:3000/login in your browser to log in to grafana
+
+
+The default username is *sudo* and the password *textig22#*.
+
+You will be prompted to change the password on initial login.
