@@ -14,9 +14,9 @@ https://docs.docker.com/engine/install/ubuntu/
 
 The setup comprises of two main files:
 1. The docker-compose file, which includes all the services required in the stack 
-   i.e Telegraf,InfluxDb and Grafana
+   i.e Telegraf,InfluxDb and Grafana.
 
-2. The telegraf specified the metrics that shoud be measured and save in the Influx database
+2. The telegraf.conf, a configuration file that specifies the metrics that shoud be measured.
 
 
 ## Getting started
@@ -24,7 +24,7 @@ Clone the Git Repository to your prefered directory
 `git clone https://github.com/Mwiku/telegraf_influxdb_grafana.git`
 
 Cd into the cloned directory then run 
-`docker-compose up` to start the stack
+`docker-compose up` to start the stack.
 
 
 When you are running the stack for the first it might take some time to download the docker images depending on your network speed.
